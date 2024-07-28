@@ -29,7 +29,7 @@ Farm_Heath is specially decined  platform for  farmers , it uses neural networks
  
 - Enhanced Model Training:
 
-  - Our deep learning model is trained and tested and the accuracy is 98% , while our sentimental analysis model is having 95%.
+  - Our deep learning model is trained and tested and the accuracy is 98% , while our summarization analysis model is also performing good.
  
 ## Technology Used :bulb:
 ### Deep learning :brain:
@@ -42,7 +42,6 @@ Farm_Heath is specially decined  platform for  farmers , it uses neural networks
 ### Natural Language Processing :dart:
 - Web Scraping using beautiful soup & requests
 - Data cleaning using nltk and langid
-- Sentimental analysis using nlptown/bert-base-multilingual-uncased-sentiment(opensource)
 - Applying tfidef, textblob, nmf to get top 1000 reviews.(opensource)
 - summarization using falconsai/text_summarization(opensource)
 
@@ -55,9 +54,9 @@ Farm_Heath is specially decined  platform for  farmers , it uses neural networks
 
 <img width="373" alt="graph" src="https://github.com/user-attachments/assets/362127fb-cde2-4efa-bb55-f24fe9580b2e">
 
-## Future Scope and Scalability 🚀
-- We will include more dataset of different plants so the farmers can predict different plants disease.
-- We will add more languages such as bengali , marathi , bhojpuri , telegu , malayalam etc according to the location of the user.
-- We will add a weather warning system for farmers that will warn farmer a day before of heavy rainfall or bad weather to reduce loss.
-- We will add a chatbot which is available on difffernet languages to ease communication.
-- We will add more fertilizer reviews to the website which will help farmers to buy good fertilizer that will not harm their crops.
+## Future Scope and Scalability & Contribution 🚀
+- include more dataset of different plants so the farmers can predict different plants disease.
+- add more languages such as bengali , marathi , bhojpuri , telegu , malayalam etc according to the location of the user.
+- add a weather warning system for farmers that will warn farmer a day before of heavy rainfall or bad weather to reduce loss.
+- add a chatbot which is available on difffernet languages to ease communication.
+- add more fertilizer reviews to the website which will help farmers to buy good fertilizer that will not harm their crops.

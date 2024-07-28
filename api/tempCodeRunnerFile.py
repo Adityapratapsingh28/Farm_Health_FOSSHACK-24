@@ -1,1 +1,0 @@
-uvicorn.run(app, host='localhost',port=8000)

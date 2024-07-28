@@ -61,4 +61,3 @@ Farm_Heath is a simple platform specially for farmers which is available on diff
 - We will add a weather warning system for farmers that will warn farmer a day before of heavy rainfall or bad weather to reduce loss.
 - We will add a chatbot which is available on difffernet languages to ease communication.
 - We will add more fertilizer reviews to the website which will help farmers to buy good fertilizer that will not harm their crops.
-- 

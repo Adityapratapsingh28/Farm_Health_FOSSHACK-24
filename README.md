@@ -60,3 +60,10 @@ Farm_Heath is specially decined  platform for  farmers , it uses neural networks
 - add a weather warning system for farmers that will warn farmer a day before of heavy rainfall or bad weather to reduce loss.
 - add a chatbot which is available on difffernet languages to ease communication.
 - add more fertilizer reviews to the website which will help farmers to buy good fertilizer that will not harm their crops.
+
+## Setup Instructions 🛠️
+### Prerequisites
+Before you proceed with the setup, ensure that you have the following prerequisites installed on your system:
+- [Python](https://www.python.org/)(version 3.7 or higher)
+- [pip](https://pip.pypa.io/en/stable/)
+- [Git](https://git-scm.com/)

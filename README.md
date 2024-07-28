@@ -32,18 +32,21 @@ Farm_Heath is a simple platform specially for farmers which is available on diff
   - Our deep learning model is trained and tested and the accuracy is 98% , while our sentimental analysis model is having 95%.
  
 ## Technology Used :bulb:
-### Deep learning
+### Deep learning :brain:
 - Data loading from kaggle
 - preprocessing and resize of images
 - Data Augmentation
 - Splitting of dataset
 - Trainig of model using CNN
 
-### Natural Language Processing
+### Natural Language Processing :dart:
 - Web Scraping using beautiful soup & requests
 - Data cleaning using nltk and langid
 - Sentimental analysis using nlptown/bert-base-multilingual-uncased-sentiment
 - Applying tfidef, textblob, nmf to get top 1000 reviews.
 - summarization using falconsai/text_summarization
 
- ###
+ ### Web :magic_wand:
+ - HTML CSS
+ - Vanila js
+ - FastAPI

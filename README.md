@@ -50,3 +50,15 @@ Farm_Heath is a simple platform specially for farmers which is available on diff
  - HTML CSS
  - Vanila js
  - FastAPI
+
+## Graph
+
+<img width="373" alt="graph" src="https://github.com/user-attachments/assets/362127fb-cde2-4efa-bb55-f24fe9580b2e">
+
+## Future Scope and Scalability 🚀
+- We will include more dataset of different plants so the farmers can predict different plants disease.
+- We will add more languages such as bengali , marathi , bhojpuri , telegu , malayalam etc according to the location of the user.
+- We will add a weather warning system for farmers that will warn farmer a day before of heavy rainfall or bad weather to reduce loss.
+- We will add a chatbot which is available on difffernet languages to ease communication.
+- We will add more fertilizer reviews to the website which will help farmers to buy good fertilizer that will not harm their crops.
+- 

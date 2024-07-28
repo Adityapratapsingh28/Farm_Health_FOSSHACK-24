@@ -4,7 +4,7 @@
 Farmers in india due to lack of knowledge and awareness about plant disesae did'nt know that from which disesae thier plant is suffering from and which lead them to the huge ecomonic loss and crop wastage , many websites are there to help them but these websites are only available on English language , but since majorty of the farmers only knows thier regional and local languages.This language issue create more complication to communicate with them and to help them using usefull technology.
 
 ## Our Solution :computer:
-Farm_Heath is a simple platform specially for farmers which is available on different languages such as hindi, english, & tamil to help the farmers, it uses neural networks to predict the disease of potato plant by just unploading the photo of leaf from your device, with the help of NLP it will also be providing fertilizer summarization analysis on top amazon products so the farmers can choose best fertilizer. This website also be providing some usefull farming laws and schemes given by our government.
+Farm_Heath is specially decined  platform for  farmers , it uses neural networks to predict the disease of potato plant by just unploading the photo of leaf from your device, with the help of NLP it will also be providing insides on analysing the growth of fertiliser product  using sentimental analysis and summary of huge reviews in 5 lines . This website also be providing some useful farming laws and schemes given by our government which are available on regional languages such as hindi, english, & tamil .
 
 ## Key Features 🤖
 - Plant disease prediction

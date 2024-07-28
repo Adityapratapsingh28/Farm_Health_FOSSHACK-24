@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmUp</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Margarine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Margarine&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // Animation duration
+            easing: 'ease-in-out', // Animation easing
+            once: false,
+        });
+    </script>
+
+    <div id="loader" class="loader">
+        <div class="corners">
+            <div class="corner corner--1"></div>
+            <div class="corner corner--2"></div>
+            <div class="corner corner--3"></div>
+            <div class="corner corner--4"></div>
+        </div>
+    </div>
+
+
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="planting.png" alt="FarmUp Logo">
+            <h1 data-translate="FarmHealth">FarmHealth</h1>
+        </div>
+        <div class="nav-right">
+            <div class="language-selector">
+                <i class="fas fa-globe"></i>
+                <select id="language-select">
+                    <option value="en">English</option>
+                    <option value="hi">हिंदी</option>
+                    <option value="ta">தமிழ்</option>
+                </select>
+            </div>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="side-menu">
+        <div class="close-btn">&times;</div>
+        <nav>
+            <ul class="menu-items">
+                <li><a href="#home"><i class="fas fa-home"></i> <span data-translate="Home">Home</span></a></li>
+                <li><a href="#fertiliser"><i class="fas fa-seedling"></i> <span data-translate="Fertiliser">Fertiliser</span></a></li>
+                <li><a href="#farmer-laws"><i class="fas fa-scroll"></i> <span data-translate="Farmer Law">Farmer Laws</span></a></li>
+                <li><a href="#farming-schemes"><i class="fas fa-scroll"></i> <span data-translate="Farming Schemes">Farming Schemes</span></a></li>
+                <li><a href="#about-us"><i class="fas fa-info-circle"></i> <span data-translate="About Us">About Us</span></a></li>
+            </ul>
+        </nav>
+    </div>
+        </div>
+
+
+
+        <div class="popup">
+            <div class="popup-content">
+                <span class="close-popup">&times;</span>
+                <h2 id="popup-title"></h2>
+                <div id="popup-body"></div>
+            </div>
+        </div>
+
+        <header class="hero">
+            <h2 data-translate="Farming Made Easy">Farming Made Easy</h2>
+            <div class="upload-box">
+                <input type="file" id="file-input" accept="image/*">
+                <p data-translate="Upload Image">Upload Image</p>
+            </div>
+            <div id="image-preview"></div>
+            <div id="prediction-result"></div>
+        </header>
+    </div>
+
+    <section id="aim"class="faq" data-aos="fade-up">
+        <h3>Fertilisers</h3>
+        <div class="container">
+            <div class="image-container">
+            <img src="ferti.jpg"></div>
+            <button id="summarizeBtn">Summarize Review</button>
+            <p id="summary"></p>
+        </div>
+    </section>
+
+
+    <div id="farming-schemes" class="faq" data-aos="fade-up">
+        <h1>Farm Schemes</h1>
+        <p><b>1. Pradhan Mantri Fasal Bima Yojana (PMFBY)</b><br>This is a crop insurance scheme that provides financial support if your crops are damaged by natural events like floods, droughts, pests, or diseases.<br><b>2. Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)</b><br>This scheme aims to improve irrigation systems to ensure that every field gets water.<br><b>3. Kisan Credit Card (KCC) Scheme</b><br>You can use this card to get money when you need it for your farming expenses and repay it later at low-interest rates.<br>This scheme provides you with a credit card that gives you easy access to loans for buying seeds, fertilizers, pesticides, and other farming needs.<b><br>4.Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)</b><br>This scheme provides small and marginal farmers with Rs. 6,000 per year, directly deposited into their bank accounts.
+            <br>
+            <b>5.National Agriculture Market (e-NAM)</b>
+    
+             You can list your produce online and reach a larger market, potentially getting better prices without leaving your village.
+            </b></p>
+        </div>
+    <div id="farmer-laws"class="faq" data-aos="fade-up">
+        <h3>Farm Laws</h3>
+        <p><b>1.The Essential Commodities Act, 1955</b><br>
+
+            *This means that if there's ever a shortage or unfair price hike of essential goods, the government can act to stabilize the prices, ensuring that you can buy necessary items at reasonable rates.
+            <br>*This law helps the government ensure that essential items like food grains, pulses, and oils are available to everyone at fair prices.
+            <br>*It allows the government to step in and control the supply and prices if they think people are hoarding these items to sell at higher prices later.
+            
+            <br><b>2. The Agricultural Produce Market Committee (APMC) Act</b>
+           <br> *You can bring your crops to the APMC mandi, where your produce will be auctioned transparently, helping you get a fair price.
+            <br>*This law sets up markets called APMC mandis where farmers can sell their crops.
+            <br>*These markets are regulated to ensure fair trading practices and to prevent farmers from being cheated by middlemen.
+            
+          <br> <b> 3. The Land Acquisition Act, 2013</b>
+            <br>* If the government needs your land for a project, you will get fair compensation and help to move and rebuild your life, ensuring you're not left without support.
+            <br>*This law lays out the rules for how the government can take over private land for public projects like roads or schools.
+           <br> *It ensures that landowners are fairly compensated and that they receive support for rehabilitation and resettlement if needed.
+            
+          <br> <b> 4.The Farmers' Produce Trade and Commerce (Promotion and Facilitation) Act, 2020</b>
+           <br> *This gives you more freedom to find the best price for your produce, whether it's in your local market, another state, or directly to a company.
+            <br>*This law allows you to sell your produce outside of the APMC mandis.
+            <br>*You can sell your crops to whoever you want, including private buyers and companies, without any restrictions.
+            
+           <br><b> 5.The Farmers (Empowerment and Protection) Agreement on Price Assurance and Farm Services Act, 2020</b>
+            <br>*You can secure a buyer and a set price for your produce in advance, reducing the risk of price drops and ensuring you have a guaranteed income.
+            <br>*This law supports contract farming, allowing you to sign agreements with buyers before you plant your crops.
+            <br>*The contract specifies the price you'll get and the quality of produce required.
+            
+            </p>
+    </div>
+
+
+
+
+    <section id="about-us" class="about-us" data-aos="fade-up">
+        <h3>About Us</h3>
+        <div class="team">
+            <div class="person" data-aos="flip-left">
+                <img src="nilesh.jpg" alt="Nilesh Kanti" class="person-img">
+                <h4>Nilesh Kanti</h4>
+                <p>Web Developer and Machine Learning enthusiast.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/nileshkanti" target="_blank"><img src="linkedin.png" alt="LinkedIn" class="social-icon"></a>
+                    <a href="https://github.com/kantinilesh" target="_blank"><img src="github-sign.png" alt="GitHub" class="social-icon"></a>
+                </div>
+            </div>
+            <div class="person" data-aos="flip-left">
+                <img src="srijan.jpeg" alt="Srijan Sarkar" class="person-img">
+                <h4>Srijan Sarkar</h4>
+                <p>Specializes in Machine Learning and Deep Learning, worked on various machine learning projects and have a deep understanding of the topic.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/srijan-sarkar-90177b288/" target="_blank"><img src="linkedin.png" alt="LinkedIn" class="social-icon"></a>
+                    <a href="https://github.com/Srijansarkar17" target="_blank"><img src="github-sign.png" alt="GitHub" class="social-icon"></a>
+                </div>
+            </div>
+            <div class="person" data-aos="flip-left">
+                <img src="aditya.jpeg" alt="Aditya Singh" class="person-img">
+                <h4>Aditya Pratap Singh</h4>
+                <p>Artificial Intelligence and Machine Learning domain where I am utilising my knowledge and learning more and more about other fields related to it. Good in adapting other fields of study and learn them with full spirit of active participation and contribution.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/aditya-singhpratapsingh8a4a62287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><img src="linkedin.png" alt="LinkedIn" class="social-icon"></a>
+                    <a href="https://github.com/Adityapratapsingh28" target="_blank"><img src="github-sign.png" alt="GitHub" class="social-icon"></a>
+                </div>
+            </div>
+            <div class="person" data-aos="flip-left">
+                <img src="sai.jpeg" alt="Sai Ganeshan" class="person-img">
+                <h4>Sai Ganeshan</h4>
+                <p>Expert in Machine Learning and Natural Language Processing.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/aditya-singhpratapsingh8a4a62287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><img src="linkedin.png" alt="LinkedIn" class="social-icon"></a>
+                    <a href="https://github.com/Adityapratapsingh28" target="_blank"><img src="github-sign.png" alt="GitHub" class="social-icon"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

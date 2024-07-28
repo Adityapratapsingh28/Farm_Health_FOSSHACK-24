@@ -42,9 +42,9 @@ Farm_Heath is a simple platform specially for farmers which is available on diff
 ### Natural Language Processing :dart:
 - Web Scraping using beautiful soup & requests
 - Data cleaning using nltk and langid
-- Sentimental analysis using nlptown/bert-base-multilingual-uncased-sentiment
-- Applying tfidef, textblob, nmf to get top 1000 reviews.
-- summarization using falconsai/text_summarization
+- Sentimental analysis using nlptown/bert-base-multilingual-uncased-sentiment(opensource)
+- Applying tfidef, textblob, nmf to get top 1000 reviews.(opensource)
+- summarization using falconsai/text_summarization(opensource)
 
  ### Web :magic_wand:
  - HTML CSS
